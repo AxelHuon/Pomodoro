@@ -1,0 +1,60 @@
+:root{
+  --red: #f54e4e;
+  --green: #4aec8c;
+}
+
+body{
+  background-color: #F2F2F2;
+  color: #566DFF;
+  padding-top: 50px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+
+button{
+  border: none;
+  background: white;
+  width: auto;
+  font-weight: 600;
+  border-radius:5px;
+  padding: 0.6em 2em;
+  font-size: 15px;
+  color: #566DFF;
+}
+
+.buttons{
+  display: flex;
+  width: 600px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+
+
+
+
+
+.slider{
+  height: 40px;
+  border: 2px solid var(--red);
+  border-radius: 20px;
+}
+
+.thumb{
+  background-color: var(--red);
+  cursor:pointer;
+  width:40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.slider.green{
+  border: 2px solid var(--green);
+}
+.slider.green .thumb{
+  background-color: var(--green);
+}
